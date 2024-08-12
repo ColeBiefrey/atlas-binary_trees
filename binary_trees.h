@@ -48,6 +48,7 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t recursive_height(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_parent_full(const binary_tree_t *node);
-
+int binary_tree_is_perfect(const binary_tree_t *tree);
+int height(const binary_tree_t *tree);
 
 #endif
