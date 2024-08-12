@@ -6,7 +6,7 @@
  * Return: depth of node in binary tree
  */
 
-size_t recursive_depth(const binary_tree_tv*tree)
+size_t recursive_depth(const binary_tree_tv *tree)
 {
 	if (tree == NULL)
 		return (-1);
